@@ -27,16 +27,7 @@ public class AviaSales implements Comparable<AviaSales> {
         return to;
     }
 
-    @Override
-    public String toString() {
-        return "AviaSales{" +
-                "id=" + id +
-                ", price=" + price +
-                ", time=" + time +
-                ", from='" + from + '\'' +
-                ", to='" + to + '\'' +
-                '}';
-    }
+
 
     @Override
     public int compareTo(AviaSales comparePrice) {
